@@ -1,8 +1,18 @@
 # Reveal
 
-Install Reveal via Boxen (http://www.revealapp.com)
+Install Reveal via Boxen (http://www.revealapp.com).
+
+More information about Boxen? (http://boxen.github.com)
 
 ## Usage
+
+Puppetfile
+
+```puppet
+github "reveal", "1.0.0", :repo => 'crafterm/puppet-reveal'
+```
+
+.pp
 
 ```puppet
 include reveal
